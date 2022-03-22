@@ -2,39 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FAQ Accordion component created with HTML CSS and JS. Challenge from: https://www.frontendmentor.io/home">
+  <meta name="author" content="Marvin Erazo">
+  <meta name="copyrigth" content="© 2022 Marvin Erazo">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Marvin Erazo | FAQ Accordion Card</title>
+
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <main>
+    <div class="container">
+      <section class="image-bg" id="right-section">
+        <!--I try to do as a background in css-->
+      </section>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+      <section class="faq-container">
+        <h1>faq</h1>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <div class="faq">
+          <h2>How many team members can I invite? <span class="answer"><img src="images/icon-arrow-down.svg" alt=""></span></h2>
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+        </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+        <div class="faq">
+          <h2>What is the maximum file upload size? <span class="answer"><img src="images/icon-arrow-down.svg" alt=""></span></h2>
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        <div class="faq">
+          <h2>How do I reset my password?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+
+        <div class="faq">
+          <h2>Can I cancel my subscription?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+
+        <div class="faq">
+          <h2>Do you provide additional support?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <button class="showBtn" title="Attribution" name="attribution" onclick="showAttribution()">
+      <img src="images/information.png" alt="">
+    </button>
+    
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      <br>
+      Coded by <a href="https://github.com/Marvin-Erazo">Marvin Erazo</a>.
+    </p>
   </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
