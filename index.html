@@ -8,7 +8,7 @@
   <meta name="copyrigth" content="© 2022 Marvin Erazo">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Marvin Erazo | FAQ Accordion Card</title>
 
@@ -16,6 +16,7 @@
 <body>
   <main>
     <div class="container">
+
       <section class="image-bg" id="right-section">
         <!--I try to do as a background in css-->
       </section>
@@ -24,30 +25,41 @@
         <h1>faq</h1>
 
         <div class="faq">
-          <h2>How many team members can I invite? <span class="answer"><img src="images/icon-arrow-down.svg" alt=""></span></h2>
-          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+          <div class="faq-question">
+            <p>How many team members can I invite? </p> <button onclick="showAnswer(event)" title="answer"></button>
+          </div>
+
+          <p class="disabled">You can invite up to 2 additional users on the Free plan. There is no limit on 
             team members for the Premium plan.</p>
         </div>
 
         <div class="faq">
-          <h2>What is the maximum file upload size? <span class="answer"><img src="images/icon-arrow-down.svg" alt=""></span></h2>
-          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          <div class="faq-question">
+            <p>What is the maximum file upload size?</p> <button onclick="showAnswer(event)" title="answer"></button>
+          </div>
+          <p class="disabled">No more than 2GB. All files in your account must fit your allotted storage space.</p>
         </div>
 
         <div class="faq">
-          <h2>How do I reset my password?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
-          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          <div class="faq-question">
+            <p>How do I reset my password?</p> <button onclick="showAnswer(event)" title="answer"></button>
+          </div>
+          <p class="disabled">Click “Forgot password” from the login page or “Change password” from your profile page.
             A reset link will be emailed to you.</p>
         </div>
 
         <div class="faq">
-          <h2>Can I cancel my subscription?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
-          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+          <div class="faq-question">
+            <p>Can I cancel my subscription?</p> <button onclick="showAnswer(event)" title="answer"></button>
+          </div>
+          <p class="disabled">Yes! Send us a message and we’ll process your request no questions asked.</p>
         </div>
 
         <div class="faq">
-          <h2>Do you provide additional support?<span class="answer"> <img src="images/icon-arrow-down.svg" alt=""></span></h2>
-          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          <div class="faq-question">
+            <p>Do you provide additional support?</p><button onclick="showAnswer(event)" title="answer"></button>
+          </div>
+          <p class="disabled">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
         </div>
       </section>
 
@@ -66,6 +78,6 @@
     </p>
   </div>
 
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+@import "card-img";
+@import "faq-container";
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    width: 60%;
+
+    section{
+        width: 50%;
+    }
+}
