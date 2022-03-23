@@ -1,34 +1,39 @@
 .faq-container{
-    margin: 70px;
+  padding: 60px 60px 0px 60px;
+  width: 50%;
 
     h1{
+      font-size: 1.8rem;
         text-transform: uppercase;
         font-weight: 700;
+        margin-bottom: 20px;
     }
 }
 
 .faq{
   border-bottom: 2px solid $line-color;
+  padding: 20px 0px;
 
   .disabled{
     display: none;
   }
 
   .active{
+    width: 95%;
     margin-top: 20px;
-    font-size: .75rem;
+    font-size: .8rem;
     color: $paragraph-color;
     font-weight: 400;
     animation-name: show;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-timing-function: ease-in-out;
   }
 }
 
 .faq-question{
+  width: 95%;
   display: flex;
   align-items: center;
-  border: 1px solid;
   
   p{
     width: 100%;

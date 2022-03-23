@@ -1,36 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-/*.image-bg{
-
+.image-bg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background: url("../images/illustration-woman-online-desktop.svg") no-repeat -70px center, url("../images/bg-pattern-desktop.svg") no-repeat -560px -290px;
 }
-*/
+
+.box-img {
+  margin-top: 40px;
+  transform: translateX(-93px);
+  width: 200px;
+  height: 120px;
+}
+
 .faq-container {
-  margin: 70px;
+  padding: 60px 60px 0px 60px;
+  width: 50%;
 }
 .faq-container h1 {
+  font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .faq {
   border-bottom: 2px solid #e7e7e9;
+  padding: 20px 0px;
 }
 .faq .disabled {
   display: none;
 }
 .faq .active {
+  width: 95%;
   margin-top: 20px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #787887;
   font-weight: 400;
   animation-name: show;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
 }
 
 .faq-question {
+  width: 95%;
   display: flex;
   align-items: center;
-  border: 1px solid;
 }
 .faq-question p {
   width: 100%;
@@ -62,9 +77,7 @@
   border-radius: 20px;
   display: flex;
   width: 60%;
-}
-.container section {
-  width: 50%;
+  height: 70%;
 }
 
 * {

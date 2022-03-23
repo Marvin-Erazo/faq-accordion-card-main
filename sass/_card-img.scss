@@ -1,4 +1,16 @@
-/*.image-bg{
-    
+.image-bg{
+	width: 50%;
+	display: flex;
+	align-items: center;
+    background:
+			url("../images/illustration-woman-online-desktop.svg") no-repeat -70px center,
+      url("../images/bg-pattern-desktop.svg") no-repeat -560px -290px
+    ;
 }
-*/
+
+.box-img{
+	margin-top: 40px;
+	transform: translateX(-93px);
+	width: 200px;
+	height: 120px;
+}
