@@ -1,0 +1,78 @@
+//laptop devices
+@media screen and (min-width: 901px) {
+  main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+    width: 90%;
+  }
+}
+
+//the maximum dimension before overflowing
+@media screen and (max-width: 900px) {
+
+  .container{
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    width: 70%;
+  }
+
+  .box-img{
+    display: none;
+  }
+
+  .image-bg{
+    position: absolute;
+    background: none;
+    width: 220px;
+    transform: translateY(-100px);
+  }
+
+  .mobile-img{
+    width: 220px;
+    padding-bottom: 30px;
+    background-image: url(../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 220px;
+  }
+
+  .faq-container{
+    margin-top: 100px;
+    width: 100%;
+    padding: 40px 20px;
+
+    h1{
+      text-align: center;
+    }
+  }
+  
+  .faq-question{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .container{
+    width: 90%;
+  }
+}
