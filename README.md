@@ -28,16 +28,16 @@ Users should be able to:
 
 Mobile
 
-
-
+![image](https://user-images.githubusercontent.com/90436675/160195025-85dce095-2626-4d8a-b86b-892043080add.png)
 
 Desktop
 
+![image](https://user-images.githubusercontent.com/90436675/160194972-d052f092-39ba-4f37-a27c-441c5f84813a.png)
 
 
 ### Links
 
-- Solution URL: https://github.com/Marvin-Erazo/profile-card-component
+- Solution URL: https://faq-component-me.netlify.app/
 - Live Site URL: https://github.com/Marvin-Erazo/faq-accordion-card-main
 
 ## My process
