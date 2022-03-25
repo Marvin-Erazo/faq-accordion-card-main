@@ -1,5 +1,5 @@
 //laptop devices
-@media screen and (min-width: 901px) {
+@media screen and (min-width: 900px) {
   main{
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@
 }
 
 //the maximum dimension before overflowing
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
 
   .container{
     flex-direction: column;
