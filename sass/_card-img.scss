@@ -1,3 +1,5 @@
+//FOR DEVICES > 900
+
 .image-bg{
 	width: 50%;
 	display: flex;
@@ -8,6 +10,7 @@
 	;
 }
 
+//THE BOX IMG SHOW WITH A <IMG> tag because this is overhead from the div
 .box-img{
 	margin-top: 40px;
 	transform: translateX(-93px);

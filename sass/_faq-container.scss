@@ -1,3 +1,6 @@
+//contain all the text for the FAQ
+//in devices > 900 this diplay rigth
+
 .faq-container{
   padding: 60px 60px 0px 60px;
   width: 50%;
@@ -18,6 +21,7 @@
     display: none;
   }
 
+  //THIS CLASS IS CHANGED WITH JS
   .active{
     width: 95%;
     margin-top: 20px;

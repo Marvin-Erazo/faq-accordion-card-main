@@ -1,5 +1,7 @@
 //laptop devices
 @media screen and (min-width: 900px) {
+  
+  //the FAQ component is divided in tow sections 50/50 one for the image and the other for the text elements
   main{
     height: 100vh;
     display: flex;
@@ -27,7 +29,9 @@
 //the maximum dimension before overflowing
 @media screen and (max-width: 899px) {
 
+  //FOR DRVICES < 899px
   .container{
+    //THe direction of the divs changes to up and down
     flex-direction: column;
     align-items: center;
     margin: auto;
@@ -36,6 +40,7 @@
   }
 
   .box-img{
+    //hide the box image
     display: none;
   }
 
@@ -47,6 +52,7 @@
   }
 
   .mobile-img{
+    //show other image overhead the div
     width: 220px;
     padding-bottom: 30px;
     background-image: url(../images/bg-pattern-mobile.svg);

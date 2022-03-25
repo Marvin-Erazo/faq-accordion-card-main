@@ -1,9 +1,4 @@
-//IMPORTS
-  //Variables
-  @import "variables";
-  @import "card";
-  @import "media-querys";
-  @import "attribution";
+@import "variables";
 
 //GLOBAL RULES
 *{
@@ -11,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-//MIXINS
+
 
 //BODY DESiGN
 
@@ -27,3 +22,7 @@ main{
   font-family: $font;
 }
 
+//IMPORTS
+@import "card";
+@import "media-querys";
+@import "attribution";
